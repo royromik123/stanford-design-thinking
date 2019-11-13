@@ -1,5 +1,6 @@
+
 window.addEventListener("scroll", e => {
-  console.log(window.scrollY);
+  // console.log(window.scrollY);
   var footer = document.querySelector("footer");
   if (window.scrollY <= 583) {
     footer.style.display = "none";
@@ -9,12 +10,20 @@ window.addEventListener("scroll", e => {
 });
 
 var footerBtn = document.getElementById("footer-btn");
-footerBtn.addEventListener("click", () =>
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  })
-);
+
+footerBtn.addEventListener("click", () => {
+  if (window.innerWidth <= 600) {
+    window.scrollTo({
+      top: 320,
+      behavior: "smooth"
+    });
+  } else {
+    window.scrollTo({
+      top: 70,
+      behavior: "smooth"
+    });
+  }
+});
 
 var accordion = Array.from(document.getElementsByClassName("accordion"));
 
@@ -29,31 +38,6 @@ accordion.forEach((acc, i) => {
     }
   });
 });
-
-// var slideIndex = 1;
-// showSlides(slideIndex);
-
-// function plusSlides(n) {
-//   showSlides(slideIndex += n);
-// }
-
-// function currentSlide(n) {
-//   showSlides(slideIndex = n);
-// }
-
-// function showSlides(n) {
-//   var i;
-//   var slides = document.getElementsByClassName("mySlides");
-
-//   if (n > slides.length) {slideIndex = 1}
-//   if (n < 1) {slideIndex = slides.length}
-//   for (i = 0; i < slides.length; i++) {
-//       slides[i].style.display = "none";
-//   }
-
-//   slides[slideIndex-1].style.display = "block";
-
-// }
 
 $(".owl-carousel").owlCarousel({
   loop: true,
