@@ -1,11 +1,19 @@
-
 window.addEventListener("scroll", e => {
-  // console.log(window.scrollY);
-  var footer = document.querySelector("footer");
-  if (window.scrollY <= 583) {
-    footer.style.display = "none";
+  
+  var footer = document.getElementById("download-brochure-footer");
+
+  if (window.innerWidth <= 600) {
+    if (window.scrollY <= 954) {
+      footer.style.display = "none";
+    } else {
+      footer.style.display = "block";
+    }
   } else {
-    footer.style.display = "block";
+    if (window.scrollY <= 583) {
+      footer.style.display = "none";
+    } else {
+      footer.style.display = "block";
+    }
   }
 });
 
@@ -25,33 +33,34 @@ footerBtn.addEventListener("click", () => {
   }
 });
 
-var accordion = Array.from(document.getElementsByClassName("accordion"));
+// $(".owl-carousel").owlCarousel({
+//   loop: true,
+//   margin: 10,
+//   nav: true,
+//   responsive: {
+//     0: {
+//       items: 1
+//     },
+//     600: {
+//       items: 1
+//     },
+//     1000: {
+//       items: 1
+//     }
+//   }
+// });
 
-accordion.forEach((acc, i) => {
-  acc.addEventListener("click", () => {
-    acc.classList.toggle("active");
-    var panel = acc.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
+$(".single-item").slick({
+		infinite: false,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          arrows: false,
+          dots:true
+        }
+      }
+    ]
+  
   });
-});
-
-$(".owl-carousel").owlCarousel({
-  loop: true,
-  margin: 10,
-  nav: true,
-  responsive: {
-    0: {
-      items: 1
-    },
-    600: {
-      items: 1
-    },
-    1000: {
-      items: 1
-    }
-  }
-});

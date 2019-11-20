@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Design Thinking</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link
+  
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
       rel="stylesheet"
-    />
+    /> -->
 
-    <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css" />
+    <!-- <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="./stylesheets/index.css" />
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -27,191 +26,166 @@
     <script src="./scripts/jquery.countdown.min.js"></script>
     <script src="./scripts/validation.js"></script>
     <script src="./scripts/countdown.js"></script>
-    <script src="./owlcarousel/owl.carousel.js"></script>
-    <script src="./owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- <script src="./owlcarousel/owl.carousel.js"></script>
+    <script src="./owlcarousel/owl.carousel.min.js"></script> -->
   </head>
   <body>
     <header>
-      <div class="logo-container">
-        <img
-          src="./Assets/stanford-logo-new.jpg"
-          alt=""
-          class="stanford-logo"
-        />
+      <div class="gl-logo">
+        <div>
+            <p>In Collaboration with:</p>
+            <div><img src="./images/gl-logo.png" alt="stanford-logo-new" />
+            </div>
+        </div>
+        
       </div>
     </header>
     <div class="hero-design-thinking">
-      <div class="transparent-layer">
         <div class="padding-container">
           <div class="design-form-section">
             <div class="design-quote-container">
-              <h3 class="design-heading">
+              <h2>
                 Design Thinking : From Insights to Viability
-              </h3>
+              </h2>
               <div class="design-quote">
-                <p class="design-info">
-                  Learn from the pioneers in Design Thinking, and join leaders
-                  transforming businesses and products in the revolution
-                </p>
-
-                <p class="design-info">
-                  Online | 10 weeks | Mentored Learning | Live Faculty
-                  Interaction
-                </p>
+                <h3>
+                    Transform Products and Businesses through Design Thinking
+                </h3 >
+                <div>
+                  <p class="program-by" >A Program by:</p>
+                  <div>
+                    <div class="stanford-logo">
+                      <img src="./Assets/Stanford-GSB.png" alt="stanford-logo">
+                      
+                    </div>
+                    <div class="vertical-line"></div>
+                    <p class="executive-text">Executive Education</p>
+                  </div>
+                
+                </div>
+                <p class="banner-highlights">Online | 10 weeks | Live Faculty Interaction | Mentored Learning</p>
               </div>
-              <div class="addmission-info">
-                <h5 class="addmission">Early Admission Fee : USD 3000</h5>
-              </div>
+              
             </div>
-          <div class="apply-form-container">
-            <form class="apply-now-form" id="apply-form" action="">
-              <h3 class="form-heading">Get Started Now</h3>
-
-              <input
-                id="form-name"
-                type="text"
-                placeholder="Name *"
-                name="Name"
-                class="input-group"
-              />
-              <input
-                id="form-email"
-                placeholder="Email *"
-                name="email"
-                class="input-group"
-              />
-              <input
-                id="form-mobile"
-                name="mobile"
-                placeholder="Mobile No. *"
-                class="input-group"
-              />
-              <select name="dd1" class="input-group form-dropdown">
-                <option value="">Work Experience</option>
-                <option value="none">none</option>
-                <option value="1 Year">1 Year</option>
-                <option value="2 Year">2 Year</option>
-                <option value="5 Year">More Than 5 Year</option>
-              </select>
-              <input
-                type="text"
-                placeholder="Current Designation"
-                class="input-group"
-              />
-              <input
-                type="text"
-                placeholder="Current Organisation"
-                class="input-group"
-              />
-              <select name="dd2" class="input-group form-dropdown">
-                <option value="">Highest Educational Qualification</option>
-                <option value="10">10th</option>
-                <option value="12">12th</option>
-                <option value="UG">UG</option>
-                <option value="PG">PG</option>
-              </select>
-              <div class="checkbox-container form-checkbox">
+            <div class="apply-form-container">
+              <form class="apply-now-form" id="apply-form" action="">
+                <h3>Get Started</h3>
+                <div class="small-border"></div>
                 <input
-                  type="checkbox"
-                  id="form_checkbox"
-                  name="checkbox"
-                /><label class="terms" for="form_checkbox"
-                  >I authorize a Great Learning representative to contact me
-                  about my interest in the program</label
-                >
-              </div>
-              <div class="apply-now-btn-container">
-                <button class="apply-now-btn">Apply Now</button>
-              </div>
-            </form>
-          </div>
-            
+                  id="form-name"
+                  type="text"
+                  placeholder="Name"
+                  name="Name"
+                />
+                <input id="form-email" placeholder="Email" name="email" />
+                <input
+                  id="form-mobile"
+                  name="mobile"
+                  placeholder="Mobile Number"
+                />
+                <select name="dd1">
+                  <option value="">Work Experience</option>
+                  <option value="none">none</option>
+                  <option value="1 Year">1 Year</option>
+                  <option value="2 Year">2 Year</option>
+                  <option value="5 Year">More Than 5 Year</option>
+                </select>
+                <div class="checkbox-container">
+                  <input
+                    type="checkbox"
+                    id="form_checkbox"
+                    name="checkbox"
+                  /><label for="form_checkbox"
+                    >I authorize Great Learning representative to contact me via phone and/or email</label
+                  >
+                </div>
+                <div class="apply-now-btn-container">
+                  <button class="apply-now-btn">DOWNLOAD BROCHURE</button>
+                </div>
+              </form>
+            </div>
+
             <div class="countdown-container">
               <div class="countdown-heading-container">
                 <h3 class="countdown-heading">
-                  Application Deadline <span>14<sup>th</sup> Nov 2019</span>
+                  Application Deadline <span>21<sup>st</sup> Nov 2019</span>
                 </h3>
               </div>
-              
+
               <div class="timer-heading">
-                <div class="frame">DAYS</div>
-                <div class="frame">HOURS</div>
-                <div class="frame">MINUTES</div>
-                <div class="frame">SECONDS</div>
+                <div>DAYS</div>
+                <div>HOURS</div>
+                <div>MINUTES</div>
+                <div>SECONDS</div>
               </div>
-              
+
               <div id="clock">
-                
-                  <span class="timer"><span>0</span></span>
-                  <span class="timer"><span>0</span></span>
-                  <span class="timer timer-divider"><span>:</span></span>
-                  <span class="timer"><span>0</span></span>
-                  <span class="timer"><span>0</span></span>
-                  <span class="timer timer-divider"><span>:</span></span>
-                  <span class="timer"><span>0</span></span>
-                  <span class="timer"><span>0</span></span>
-                  <span class="timer timer-divider"><span>:</span></span>
-                  <span class="timer"><span>0</span></span>
-                  <span class="timer"><span>0</span></span>
+                <span class="timer"><span>0</span></span>
+                <span class="timer"><span>0</span></span>
+                <span class="timer timer-divider"><span>:</span></span>
+                <span class="timer"><span>0</span></span>
+                <span class="timer"><span>0</span></span>
+                <span class="timer timer-divider"><span>:</span></span>
+                <span class="timer"><span>0</span></span>
+                <span class="timer"><span>0</span></span>
+                <span class="timer timer-divider"><span>:</span></span>
+                <span class="timer"><span>0</span></span>
+                <span class="timer"><span>0</span></span>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      
     </div>
 
     <!-- //////////////////////////////////////////////////why-design-thinking-section///////////////////////////////////////////// -->
-    <div class="padding-container">
-      <div class="why-design-thinking">
-        <div class="why-design-heading-container">
-          <h3 class="why-design-heading">WHY DESIGN THINKING?</h3>
-          <!-- <div class="border-design"></div> -->
-        </div>
-        <div class="why-design-video">
-          <iframe src="https://www.youtube.com/embed/0V5BwTrQOCs"> </iframe>
-          <!-- <video width="574" height="270" controls data-state="hidden" poster="./images/Screenshot from 2019-11-05 13-14-34.png">
-            <source
-              src="./images/IDEO U - What is Design Thinking.mp4"
-              type="video/mp4"
-            />
-
-            Your browser does not support the video tag.
-          </video> -->
-        </div>
-        <div class="growth-history-block-container">
-          <div class="growth-history-block">
-            <div class="icon-block">
-              <img class="icon" src="./Assets/icon-1.svg" alt="icon" />
-            </div>
-            <p class="growth-history-info">
-              Design-driven companies have outperformed the S&P Index by
-              <b>228%</b>
-              over 10 years.
-            </p>
-            <p class="growth-history-source">(Source: DMI)</p>
+    <div class="why-design-thinking-section">
+      <div class="padding-container">
+        <div class="why-design-thinking">
+          <div class="main-title-container">
+            <h3 class="main-title">WHY DESIGN THINKING?</h3>
+            <!-- <div class="border-design"></div> -->
           </div>
-          <div class="growth-history-block">
-            <div class="icon-block">
-              <img class="icon" src="./Assets/icon-2.svg" alt="icon" />
-            </div>
-            <p class="growth-history-info">
-              Companies that foster creativity enjoy <b>1.5</b> times greater
-              market share.
-            </p>
-            <p class="growth-history-source">(Source: Adobe)</p>
+          <div class="why-design-video">
+            <iframe src="https://www.youtube.com/embed/0V5BwTrQOCs"> </iframe>
           </div>
-          <div class="growth-history-block">
-            <div class="icon-block">
-              <img class="icon" src="./Assets/icon-3.svg" alt="icon" />
+          <div class="growth-history-block-container">
+            <div class="growth-history-block">
+              <div class="icon-block">
+                <img src="./Assets/icon-1.svg" alt="icon" />
+              </div>
+              <p>
+                Design-driven companies have outperformed the S&P Index by
+                <b>228%</b>
+                over 10 years.
+              </p>
+              <div class="growth-history-source">(Source: DMI)</div>
             </div>
-            <p class="growth-history-info">
-              <b>50%</b> of design-led companies report more loyal customers
-            </p>
-            <p class="growth-history-source">(Source: Adobe)</p>
+            <div class="growth-history-block">
+              <div class="icon-block">
+                <img src="./Assets/icon-2.svg" alt="icon" />
+              </div>
+              <p>
+                Companies that foster creativity enjoy <b>1.5</b> times greater
+                market share.
+              </p>
+              <div class="growth-history-source">(Source: Adobe)</div>
+            </div>
+            <div class="growth-history-block">
+              <div class="icon-block">
+                <img src="./Assets/icon-3.svg" alt="icon" />
+              </div>
+              <p>
+                <b>50%</b> of design-led companies report more loyal customers
+              </p>
+              <div class="growth-history-source">(Source: Adobe)</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
 
     <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -219,30 +193,30 @@
     <div class="introduction-section">
       <div class="padding-container">
         <div class="introduction">
-          <div class="intro-heading-container why-design-heading-container">
-            <h3 class="intro-heading why-design-heading">INTRODUCTION</h3>
+          <div class="main-title-container">
+            <h3 class="main-title">INTRODUCTION</h3>
           </div>
           <div class="intro-quote-container">
-            <p class="intro-quote">
+            <p>
               'Design thinking is a human-centered approach to innovation that
               integrates the needs of people, the possibilities of technology,
               and the requirements for business success.'
             </p>
-            <h5 class="intro-quote-author">- Tim Brown, CEO, IDEO</h5>
+            <h5>- Tim Brown, CEO, IDEO</h5>
           </div>
-          <p class="intro-paras">
+          <p>
             Through this course, you will learn a pragmatic approach that is
             both a system for inducing creativity and innovation and a framework
             for solving complex business problems. Learn how you can apply these
             principles to make products that delight your users.
           </p>
-          <p class="intro-paras">
+          <p>
             Designed for busy executives, Design Thinking: From Insights to
             Viability enables you to integrate your education with your work so
             you can apply, iterate, and innovate on the job and boost your
             immediate and long-term outcomes.
           </p>
-          <p class="intro-paras">
+          <p>
             The program is offered by Stanford Graduate School of Business and
             supported by Great Learning. Upon successful completion of the
             program, participants will earn a Certificate of Completion from
@@ -251,78 +225,94 @@
         </div>
       </div>
     </div>
+
+
+    <!-- ///////////////////////****************CERTIFICATION*****************//////////////////////////////////// -->
+
+<div class="certificate-section">
+  <div class="padding-container">
+    <div class="certificate">
+      <div class="main-title-container">
+        <h2 class="main-title">CERTIFICATE</h2>
+      </div>
+      <p>            
+        Participants who successfully complete the program will be awarded with a 'Certificate of Completion' from
+        Stanford Graduate School of Business.
+      </p>
+        <div class="certificate-img-container">
+          <img src="./images/certificate-sample.jpg" alt="certificate">
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
     <!-- ////////////////////*********advantage with design thinking***********////////////////////////////////////////////////// -->
     <div class="advantage-section">
       <div class="padding-container">
         <div class="advantage">
-          <div class="advantage-heading-container why-design-heading-container">
-            <h3 class="advantage-heading why-design-heading">
+          <div class="main-title-container">
+            <h3 class="main-title">
               BUILD A COMPETITIVE ADVANTAGE WITH DESIGN THINKING
             </h3>
           </div>
           <div class="advantage-blocks">
             <div class="advantage-info-block">
-              <div class="advantage-icons">
+              <div>
                 <div class="advantage-icon-container">
                   <img
-                    class="advantage-icon"
                     src="./Assets/noun-creative-design-thinking-898457.svg"
                     alt="icon"
                   />
                 </div>
               </div>
-              <h4 class="advantage-info-heading">
+              <h3>
                 Develop an all-purpose toolkit
-              </h4>
-              <p class="advantage-info">
+              </h3>
+              <p>
                 Learn to use the frameworks in a wide variety of scenarios so
                 you are ready for any challenge
               </p>
             </div>
             <div class="advantage-info-block">
-              <div class="advantage-icons">
+              <div>
                 <div class="advantage-icon-container">
                   <img
-                    class="advantage-icon"
                     src="./Assets/noun-launch-project-528026.svg"
                     alt="icon"
                   />
                 </div>
               </div>
-              <h4 class="advantage-info-heading">Learn by Doing</h4>
-              <p class="advantage-info">
+              <h3>Learn by Doing</h3>
+              <p>
                 Apply the Design Thinking methodology to a series of real-world
                 applications, and internalize the concepts
               </p>
             </div>
             <div class="advantage-info-block">
-              <div class="advantage-icons">
+              <div>
                 <div class="advantage-icon-container">
                   <img
-                    class="advantage-icon"
                     src="./Assets/noun-leadership-544631.svg"
                     alt="advantage-icon"
                   />
                 </div>
               </div>
-              <h4 class="advantage-info-heading">Engage with Experts</h4>
-              <p class="advantage-info">
+              <h3>Engage with Experts</h3>
+              <p>
                 Interact with world-leading faculty, get personalized feedback
                 from course facilitators, and learn from seasoned practitioners
               </p>
             </div>
             <div class="advantage-info-block">
-              <div class="advantage-icons">
+              <div>
                 <div class="advantage-icon-container">
-                  <img
-                    class="advantage-icon"
-                    src="./Assets/noun-expert-2255224.svg"
-                    alt="icon"
-                  />
+                  <img src="./Assets/noun-expert-2255224.svg" alt="icon" />
                 </div>
               </div>
-              <h4 class="advantage-info-heading">Showcase your expertise</h4>
-              <p class="advantage-info">
+              <h3>Showcase your expertise</h3>
+              <p>
                 Distinguish yourself with a certificate from Stanford Graduate
                 School of Business
               </p>
@@ -335,72 +325,58 @@
     <div class="program-highlights">
       <div class="padding-container">
         <div class="program-highlights-section">
-          <div class="program-heading-container why-design-heading-container">
-            <h3 class="program-heading why-design-heading">
+          <div class="main-title-container">
+            <h3 class="main-title">
               PROGRAM HIGHLIGHTS
             </h3>
           </div>
           <div class="program-info-blocks-container">
-            <div class="program-info-block growth-history-block">
-              <div class="program-info-block icon-block">
-                <img class="icon" src="./Assets/10-week-icon.svg" alt="icon" />
+            <div class="growth-history-block">
+              <div class="icon-block">
+                <img src="./Assets/10-week-icon.svg" alt="icon" />
               </div>
               <p class="program-info">
                 10-week course
               </p>
             </div>
-            <div class="program-info-block growth-history-block">
-              <div class="program-info-block icon-block">
-                <img
-                  class="icon"
-                  src="./Assets/weekly-learning-icon.svg"
-                  alt="icon"
-                />
+            <div class="growth-history-block">
+              <div class="icon-block">
+                <img src="./Assets/weekly-learning-icon.svg" alt="icon" />
               </div>
               <p class="program-info">
                 3 to 5 hours of weekly learning commitment
               </p>
             </div>
-            <div class="program-info-block growth-history-block">
-              <div class="program-info-block icon-block">
-                <img class="icon" src="./Assets/live-classes.svg" alt="icon" />
+            <div class="growth-history-block">
+              <div class="icon-block">
+                <img src="./Assets/live-classes.svg" alt="icon" />
               </div>
               <p class="program-info">
-                Two live classes by distinguished, tenured faculty from Stanford
-                GSB
+                Live interactive session by tenured faculty from Stanford Graduate School of Business
               </p>
             </div>
-            <div class="program-info-block growth-history-block">
-              <div class="program-info-block icon-block">
-                <img
-                  class="icon"
-                  src="./Assets/weekly-feedback.svg"
-                  alt="icon"
-                />
+            <div class="growth-history-block">
+              <div class="icon-block">
+                <img src="./Assets/weekly-feedback.svg" alt="icon" />
               </div>
               <p class="program-info">
-                Weekly feedback with experienced Course Facilitator
+                Weekly feedback and live interactive sessions with experienced course facilitator
               </p>
             </div>
-            <div class="program-info-block growth-history-block">
-              <div class="program-info-block icon-block">
-                <img
-                  class="icon"
-                  src="./Assets/certificate-icon.svg"
-                  alt="icon"
-                />
+            <div class="growth-history-block">
+              <div class="icon-block">
+                <img src="./Assets/certificate-icon.svg" alt="icon" />
               </div>
               <p class="program-info">
                 Certificate from Stanford Graduate School of Business
               </p>
             </div>
-            <div class="program-info-block growth-history-block">
-              <div class="program-info-block icon-block">
-                <img class="icon" src="./Assets/10-assignment.svg" alt="icon" />
+            <div class="growth-history-block">
+              <div class="icon-block">
+                <img src="./Assets/10-assignment.svg" alt="icon" />
               </div>
               <p class="program-info">
-                10 assignments and a final reflection to synthesize what you've
-                learnt
+                10 assignments and a final reflection to synthesize what you've learnt
               </p>
             </div>
           </div>
@@ -411,21 +387,17 @@
     <!-- ///////////////////////////******************LEARN FROM THE BEST**************////////////////////////// -->
     <div class="padding-container">
       <div class="learn-from-the-best">
-        <div class="learn-best-heading-container why-design-heading-container">
-          <h3 class="lear-best-heading why-design-heading">
+        <div class="main-title-container">
+          <h3 class="main-title">
             LEARN FROM THE BEST
           </h3>
         </div>
         <div class="stefanos-profile-info">
           <div class="stefanos-profile-photo">
-            <img
-              class="stefanos-photo"
-              src="./images/Zenios 052314.jpg"
-              alt="stefanos photo"
-            />
+            <img src="./images/stefanos.jpg" alt="stefanos photo" />
           </div>
           <div class="stefanos-bio-container">
-            <h3 class="stefanos-name">Stefanos Zenios</h3>
+            <h3>Stefanos Zenios</h3>
             <p class="stefanos-bio stefanos-bio-bold">
               The Investment Group of Santa Barbara Professor of
               Entrepreneurship and Professor of Operations, Information &
@@ -435,12 +407,12 @@
               Dhirubhai Ambani Faculty Fellow in Entrepreneurship for 2018-2019
             </p>
             <p class="stefanos-bio stefanos-bio-p">
-              Stefanos Zenios is the faculty co-director at Stanford GSB's
-              center for Entrepreneurial Studies. An innovative teacher and
-              researcher, Zenios is the main architect of Startup Garage, a
-              popular GSB course that each year helps hundreds of Stanford GSB
-              students and executives learn and apply the innovation processes
-              that are at the center of the Silicon Valley Ecosystem.
+              Professor Stefanos Zenios is the faculty co-director at Stanford Graduate
+            School of Business' center for Entrepreneurial Studies. An innovative teacher and researcher, Professor
+            Zenios is the main architect of Startup Garage, a popular Stanford Graduate School of Business course that
+            each year helps hundreds of Stanford Graduate School of Business students and executives learn and apply the
+            innovation processes that are at the center of the Silicon Valley Ecosystem.
+          
             </p>
           </div>
         </div>
@@ -452,14 +424,12 @@
     <div class="curriculam-section">
       <div class="padding-container">
         <div class="curriculam">
-          <div
-            class="curriculam-heading-container why-design-heading-container"
-          >
-            <h3 class="curriculam-heading why-design-heading">
-              CURRICULAM SNAPSHOT
+          <div class="main-title-container">
+            <h3 class="main-title">
+              CURRICULUM SNAPSHOT
             </h3>
           </div>
-          <p class="curriculam-info">
+          <p>
             The curriculum covers the entire framework of the design thinking
             process. Participants build an understanding of the 'user's need' by
             engaging in empathetic interactions, creating and testing rapid
@@ -467,110 +437,28 @@
             case.
           </p>
           <div class="curriculam-accordions">
-            <button class="accordion">Human-centered Design</button>
-            <div class="panel">
-              <ul>
-                <li class="panel-list">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-              </ul>
-            </div>
-            <button class="accordion">Needs Finding</button>
-            <div class="panel">
-              <ul>
-                <li class="panel-list">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-              </ul>
-            </div>
-            <button class="accordion">
+            <div>Human-centered Design</div>
+
+            <div>Needs Finding</div>
+
+            <div>
               Interviewing and Empathy-Building Techniques
-            </button>
-            <div class="panel">
-              <ul>
-                <li class="panel-list">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-              </ul>
             </div>
-            <button class="accordion">
+
+            <div>
               Making sense of Observations and Insights
-            </button>
-            <div class="panel">
-              <ul>
-                <li class="panel-list">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-              </ul>
             </div>
-            <button class="accordion">Defining a Point of View</button>
-            <div class="panel">
-              <ul>
-                <li class="panel-list">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-              </ul>
-            </div>
-            <button class="accordion">Ideation</button>
-            <div class="panel">
-              <ul>
-                <li class="panel-list">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-              </ul>
-            </div>
-            <button class="accordion">Developing and Testing Prototypes</button>
-            <div class="panel">
-              <ul>
-                <li class="panel-list">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-              </ul>
-            </div>
-            <button class="accordion">Minimal Viable Products</button>
-            <div class="panel">
-              <ul>
-                <li class="panel-list">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-              </ul>
-            </div>
-            <button class="accordion accordion-l">
-              Minimal Viable Products
-            </button>
-            <div class="panel panel-l">
-              <ul>
-                <li class="panel-list">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </li>
-              </ul>
+
+            <div>Defining a Point of View</div>
+
+            <div>Ideation</div>
+
+            <div>Developing and Testing Prototypes</div>
+
+            <div>Minimal Viable Products</div>
+
+            <div style="border-bottom:solid 1px rgb(202, 200, 200);">
+              Defining and Testing Business Models and Business Cases
             </div>
           </div>
         </div>
@@ -581,200 +469,139 @@
 
     <div class="padding-container">
       <div class="learning-outcomes-section">
-        <div class="learning-heading-container why-design-heading-container">
-          <h3 class="learning-heading why-design-heading">LEARNING OUTCOMES</h3>
+        <div class="main-title-container">
+          <h3 class="main-title">LEARNING OUTCOMES</h3>
         </div>
-        <p class="learning-p">
+        <p>
           Acquire a design thinking mindset, so that you can translate your
           learnings during the course to drive innovation in your company
         </p>
         <div class="learning-info-container">
           <div class="learning-infos">
             <div class="learning-info-block">
-              <div class="learning-icon-container">
-                <img
-                  class="learning-icon"
-                  src="./Assets/black-tick.svg"
-                  alt=""
-                />
+              <div>
+                <img src="./Assets/black-tick.svg" alt="" />
               </div>
-              <p class="learning-info">
+              <p>
                 Develop viable solutions to user challenges using the design
                 thinking and hypothesis-driven innovation processes
               </p>
             </div>
             <div class="learning-info-block">
-              <div class="learning-icon-container">
-                <img
-                  class="learning-icon"
-                  src="./Assets/black-tick.svg"
-                  alt=""
-                />
+              <div>
+                <img src="./Assets/black-tick.svg" alt="" />
               </div>
-              <p class="learning-info">
+              <p>
                 Gain user empathy through observation and interviewing, and
                 develop user insights to identify unmet needs.
               </p>
             </div>
             <div class="learning-info-block">
-              <div class="learning-icon-container">
-                <img
-                  class="learning-icon"
-                  src="./Assets/black-tick.svg"
-                  alt=""
-                />
+              <div>
+                <img src="./Assets/black-tick.svg" alt="" />
               </div>
-              <p class="learning-info">
+              <p>
                 Use multiple brainstorming techniques to find innovative
                 solutions.
               </p>
             </div>
             <div class="learning-info-block">
-              <div class="learning-icon-container">
-                <img
-                  class="learning-icon"
-                  src="./Assets/black-tick.svg"
-                  alt=""
-                />
+              <div>
+                <img src="./Assets/black-tick.svg" alt="" />
               </div>
-              <p class="learning-info">
+              <p>
                 Prototype a solution to a user challenge.
               </p>
             </div>
             <div class="learning-info-block">
-              <div class="learning-icon-container">
-                <img
-                  class="learning-icon"
-                  src="./Assets/black-tick.svg"
-                  alt=""
-                />
+              <div>
+                <img src="./Assets/black-tick.svg" alt="" />
               </div>
-              <p class="learning-info">
+              <p>
                 Develop and test a business model or business case to support
                 the viability of the solution
               </p>
             </div>
           </div>
           <div class="laptop-img-container">
-            <img class="laptop-img" src="./Assets/laptop.png" alt="" />
+            <img src="./Assets/laptop.png" alt="" />
           </div>
         </div>
       </div>
     </div>
 
     <!-- ///////////////////////////////////////////////////////***********WHO SHOULD ATTEND*****************//////////////////////////////////////// -->
-    <div class="padding-container">
-      <div class="who-should-attend program-highlights-section">
-        <div class="program-heading-container why-design-heading-container">
-          <h3 class="program-heading why-design-heading">
-            WHO-SHOULD-ATTEND
-          </h3>
-        </div>
-        <div class="program-info-blocks-container">
-          <div class="program-info-block growth-history-block">
-            <div class="program-info-block icon-block">
-              <img class="icon" src="./Assets/prod-manager.svg" alt="icon" />
-            </div>
-            <h4 class="program-info">
-              Product Managers
-            </h4>
-          </div>
-          <div class="program-info-block growth-history-block">
-            <div class="program-info-block icon-block">
-              <img class="icon" src="./Assets/business-heads.svg" alt="icon" />
-            </div>
-            <h4 class="program-info">
-              Business Heads
-            </h4>
-          </div>
-          <div class="program-info-block growth-history-block">
-            <div class="program-info-block icon-block">
-              <img
-                class="icon"
-                src="./Assets/marketing-manager.svg"
-                alt="icon"
-              />
-            </div>
-            <h4 class="program-info">
-              Marketing Managers
-            </h4>
-          </div>
-          <div class="program-info-block growth-history-block">
-            <div class="program-info-block icon-block">
-              <img class="icon" src="./Assets/entreprenures.svg" alt="icon" />
-            </div>
-            <h4 class="program-info">
-              Entreprenures
-            </h4>
-          </div>
-          <div class="program-info-block growth-history-block">
-            <div class="program-info-block icon-block">
-              <img class="icon" src="./Assets/consultants.svg" alt="icon" />
-            </div>
-            <h4 class="program-info">
-              Consultants
-            </h4>
-          </div>
-          <div class="program-info-block growth-history-block">
-            <div class="program-info-block icon-block">
-              <img class="icon" src="./Assets/ui-ux-designers.svg" alt="icon" />
-            </div>
-            <h4 class="program-info">
-              UI/Ux Designers
-            </h4>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ///////////////////////////////*****************ELIGIBILITY***************///////////////////////////////// -->
-    <div class="eligibility">
+    <div class="attend-section">
       <div class="padding-container">
-        <div class="eligibility-section">
-          <div
-            class="eligibility-heading-container why-design-heading-container"
-          >
-            <h3 class="eligibility-heading why-design-heading">ELIGIBILITY</h3>
+        <div class="who-should-attend">
+          <div class="main-title-container">
+            <h3 class="main-title">
+              WHO-SHOULD-ATTEND
+            </h3>
           </div>
-          <div class="eligibility-blocks">
-            <div class="eligibility-block">
-              <div class="eligibility-icon-container">
-                <img
-                  class="eligibility-icon"
-                  src="./Assets/undergraduate.svg"
-                  alt=""
-                />
+          <div class="program-info-blocks-container">
+            <div class="attend-block">
+              <div>
+                <img src="./Assets/prod-manager.svg" alt="icon" />
               </div>
-              <p class="eligibility-info">
-                Undergraduate Degree with a minimum of 50% in any discipline
-              </p>
+              <h4>
+                Product Managers
+              </h4>
             </div>
-            <div class="eligibility-block">
-              <div class="eligibility-icon-container">
-                <img
-                  class="eligibility-icon"
-                  src="./Assets/4-year-exp.svg"
-                  alt=""
-                />
+            <div class="attend-block">
+              <div>
+                <img src="./Assets/business-heads.svg" alt="icon" />
               </div>
-              <p class="eligibility-info">
-                Professionals with at least 4 years of experience in their field
-              </p>
+              <h4>
+                Business Heads
+              </h4>
+            </div>
+            <div class="attend-block">
+              <div>
+                <img src="./Assets/marketing-manager.svg" alt="icon" />
+              </div>
+              <h4>
+                Marketing Managers
+              </h4>
+            </div>
+            <div class="attend-block">
+              <div>
+                <img src="./Assets/entreprenures.svg" alt="icon" />
+              </div>
+              <h4>
+                Entreprenures
+              </h4>
+            </div>
+            <div class="attend-block">
+              <div>
+                <img src="./Assets/consultants.svg" alt="icon" />
+              </div>
+              <h4>
+                Consultants
+              </h4>
+            </div>
+            <div class="attend-block">
+              <div>
+                <img src="./Assets/ui-ux-designers.svg" alt="icon" />
+              </div>
+              <h4>
+                UI/Ux Designers
+              </h4>
             </div>
           </div>
         </div>
       </div>
     </div>
+    
 
     <!--////////////////*****************TESTIMONIALS******************//////////////////// -->
 
     <div class="padding-container">
       <div class="testimonials-section">
-        <div
-          class="testimonials-heading-container why-design-heading-container"
-        >
-          <h3 class="testimonial-heading why-design-heading">TESTIMONIALS</h3>
+        <div class="testimonials-heading-container main-title-container">
+          <h3 class="testimonial-heading main-title">TESTIMONIALS</h3>
         </div>
-        <div class="slideshow-container owl-carousel owl-theme">
+        <div class="single-item">
           <div class="item">
             <div class="testimonials-quote-container">
               <div class="quote-icon-container">
@@ -786,10 +613,10 @@
                 </p>
               </div>
               <div class="quote-author-info">
-                <h4 class="test-quote-author">
+                <h4>
                   - Senior Director, Business Development
                 </h4>
-                <p class="author-des">(Software Industry)</p>
+                <p>(Software Industry)</p>
               </div>
             </div>
           </div>
@@ -798,76 +625,137 @@
             <div class="testimonials-quote-container">
               <div class="quote-icon-container">
                 <p class="testimonials-quote">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  I tested a couple of workshops with my team and peers, using
+                  the framework presented during the first course live session.
+                  It is amazing how people interact and contribute in these
+                  sessions vs traditional meetings using 1h30 PowerPoint
+                  presentation.
                 </p>
               </div>
               <div class="quote-author-info">
-                <h4 class="test-quote-author">
-                  - Senior Director, Business Development
+                <h4>
+                  - Head of Digital Identity Solutions Worldwide
                 </h4>
-                <p class="author-des">(Software Industry)</p>
+                <p>(Digital Security)</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-quote-container">
+              <div class="quote-icon-container">
+                <p class="testimonials-quote">
+                  This course inspired me to apply Design Thinking in small incremental ways.
+                  It really reinforced
+                  that
+                  Design Thinking is as much about a mindset as the process, which is helpful for those people who are
+                  introducing Design Thinking to organizations.
+                </p>
+              </div>
+              <div class="quote-author-info">
+                <h4>
+                  - Senior Vice President
+                </h4>
+                <p>(Consulting Industry)</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-quote-container">
+              <div class="quote-icon-container">
+                <p class="testimonials-quote">
+                  The brainstorm was incredible - total disruption to misconceptions I had
+                  about virtual
+                  collaboration.
+                </p>
+              </div>
+              <div class="quote-author-info">
+                <h4>
+                  - Business Director
+                </h4>
+                <p>(Advertising/Marketing Services)</p>
               </div>
             </div>
           </div>
         </div>
+        <p class="test-program-info">
+          *Testimonials from alumni of Stanford Graduate School of Business LEAD
+          Program's Design Thinking course.
+        </p>
       </div>
     </div>
 
     <!-- ///////////////////////****************COMPANIES THAT USE DESIGN THINKING*********////////////////////////////// -->
-    <div class="padding-container">
-      <div class="companies-section">
-        <div
-          class="companies-heading-container advantage-heading-container why-design-heading-container"
-        >
-          <h3 class="companies-heading advantage-heading why-design-heading">
-            COMPANIES THAT USE DESIGN THINKING
-          </h3>
-        </div>
-        <div class="companies-img-container">
-          <img
-            class="companies-img"
-            src="./images/companies.jpg"
-            alt="companies"
-          />
+    <div class="companies">
+      <div class="padding-container">
+        <div class="companies-section">
+          <div class="main-title-container">
+            <h3 class="main-title">
+              COMPANIES THAT USE DESIGN THINKING
+            </h3>
+          </div>
+          <p>Companies are using Design Thinking frameworks to innovate and grow their business. Here is an indicative
+            list of companies that have used design thinking to create products that customers love. </p>
+            <div class="comp-wrapper">
+              <ul>
+                <li>APPLE</li>
+                <li>SAP</li>
+                <li>IBM</li>
+                <li>NETFLIX</li>
+                <li> NIKE</li>
+                <li>CITRIX</li>
+                <li>PURINA</li>
+                <li>CAPITAL ONE</li>
+                <li> AirBnb</li>
+                <li style="font-size: 17px; width:100%; color: #1c48e5;">and many more...</li>
+              </ul>
+            </div>
         </div>
       </div>
     </div>
+    
 
-    <!-- ////////////////////GREATLEARNING FOOTER ////////////////////////////////////-->
+    <!-- ////////////////////GREAT LEARNING FOOTER ////////////////////////////////////-->
     <div class="great-learning-footer-section">
       <div class="padding-container">
         <div class="great-learning-footer">
           <p class="great-learning-tag">Delivered in collaboration with</p>
           <img
-            class="great-learning-img"
+            class="great-learning-logo"
             src="./images/Greatlearning_Logo-4b88cc7639c4139813b2691e77a52d1143606e1fc9a7202139fa1e28c0bafb0c.png"
             alt=""
           />
           <p class="great-learning-info">
             Great Learning is an Ed-Tech company that offers programs in career
-            critical competencies such as Analytics, Data Science, Artificial
-            Intelligence, Cloud Computing, Cybersecurity, Full Stack Development
-            and much more. Over 10000 professionals have taken Great Learning
-            programs and it has already delivered over 5 million hours of
-            learning.
+            critical competencies such as Analytics,
+            Data Science, Artificial Intelligence, Cloud Computing, Cybersecurity, Full Stack Development and much more.
+            13500+ professionals have taken Great Learning programs and it has already delivered over 8 million
+            hours of learning.
           </p>
         </div>
       </div>
     </div>
+<!-- ////////////////////////////////// Privacy Footer/////////////////////////////////////////  -->
+
+ <footer class="policy-footer">
+   <a><u>Privacy Policy</u></a>
+   <p>Copyright© Great Lakes, 2019. All Rights Reserved.
+  </p>
+ </footer>
 
     <!-- /////////////////////////footer -->
-    <footer>
-      <div class="footer-padding">
-        <div class="footer-apply-now">
-          <!-- <div></div> -->
-          <div class="footer-tag">Learn Design Thinking from Stanford GSB</div>
-          <button class="apply-now-btn-footer" id="footer-btn">
-            Apply Now
-          </button>
-          <!-- <div></div> -->
+    <footer id="download-brochure-footer">
+      <div>
+        <div class="getStartedTxt">
+          <div class="footer-apply-now">
+            <span >Learn Design Thinking from Stanford Graduate School of Business Executive Education</span>
+            <button id="footer-btn">
+              Download Brochure
+            </button>
+          </div>
         </div>
       </div>
+       
+      
     </footer>
 
     <script src="./scripts/index.js"></script>

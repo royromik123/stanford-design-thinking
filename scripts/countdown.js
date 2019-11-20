@@ -1,6 +1,6 @@
 // require('jquery-countdown');
 var last = "00:00:00:00";
-var now = "2019/12/20 12:34:56";
+var now = "2019/12/27 00:00:00";
 $(document).ready(function() {
   $("#clock").countdown(now, function(event) {
     var format = "%H:%M:%S";
@@ -27,7 +27,6 @@ $(document).ready(function() {
 
   function animate(index, number) {
     var element = document.getElementsByClassName("timer")[index];
-    console.log(element);
 
     var second = element.lastElementChild.cloneNode(true);
     second.innerHTML = number;
@@ -44,9 +43,9 @@ $(document).ready(function() {
       element.classList.remove("move"); 
       
 
-    },450);
+    },380);
     setTimeout(() => {
       element.removeChild(element.firstElementChild);
-    },450)
+    },380)
   }
 });
